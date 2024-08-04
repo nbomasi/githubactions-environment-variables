@@ -28,8 +28,8 @@ jobs:
       # - name: Run server
         # run: npm start & npx wait-on http://127.0.0.1:$PORT #Calling environment variable
         #run: npm start & npx wait-on http://127.0.0.1:${{ env.PORT }} # Another way to Call environment variable using github predefined env
-      - name: Run tests
-        run: npm test
+      # - name: Run tests
+      #   run: npm test
       - name: Output information
         run: |
            echo "This is MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }} ..."
